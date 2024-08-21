@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styles */
 body, h1, h2, h3, p {
     margin: 0;
@@ -16,17 +17,45 @@ header {
     background-color: #333;
     color: #fff;
     padding: 1rem 2rem;
+=======
+/* Reset some basic styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+<<<<<<< HEAD
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+=======
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
 }
 
 .nav-links {
     list-style-type: none;
     display: flex;
+<<<<<<< HEAD
     justify-content: flex-end;
+=======
+    justify-content: space-between;
+    margin-right: 2rem;
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
 }
 
 .nav-links li {
@@ -35,6 +64,7 @@ header {
 
 .nav-links a {
     text-decoration: none;
+<<<<<<< HEAD
     color: #fff;
     font-weight: bold;
     transition: color 0.3s;
@@ -47,12 +77,24 @@ header {
 /* Hero Section */
 .hero-section {
     background: url('tech-background.jpg') no-repeat center center/cover;
+=======
+    color: #1d1d1f;
+    font-weight: 600;
+}
+
+.hero-section {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #ffffff;
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     padding: 0 2rem;
     margin-top: 60px;
 }
@@ -70,6 +112,7 @@ header {
 .cta-button {
     padding: 0.75rem 2rem;
     background-color: #0071e3;
+<<<<<<< HEAD
     color: #fff;
     text-decoration: none;
     border-radius: 25px;
@@ -106,15 +149,29 @@ header {
 
 /* Services Section */
 .services-section {
+=======
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.products-section, .about-section, .contact-section {
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     padding: 4rem 2rem;
     text-align: center;
 }
 
+<<<<<<< HEAD
 .services-section h2 {
+=======
+.products-section h2, .about-section h2, .contact-section h2 {
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
+<<<<<<< HEAD
 .service-grid {
     display: flex;
     justify-content: center;
@@ -124,23 +181,42 @@ header {
 
 .service-item {
     background-color: #fff;
+=======
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.product-item {
+    background-color: #ffffff;
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 300px;
 }
 
+<<<<<<< HEAD
 .service-item img {
+=======
+.product-item img {
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
 
+<<<<<<< HEAD
 .service-item h3 {
+=======
+.product-item h3 {
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
+<<<<<<< HEAD
 /* Contact Section */
 .contact-section {
     padding: 4rem 2rem;
@@ -199,4 +275,16 @@ footer {
 
 footer p {
     font-size: 1rem;
+=======
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    color: #6e6e73;
+>>>>>>> 09c31b2dd248a0df0c26bc27849c1c71fe5938e5
 }
