@@ -1,0 +1,202 @@
+/* General Styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('tech-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 2rem;
+    margin-top: 60px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    padding: 0.75rem 2rem;
+    background-color: #0071e3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+}
+
+/* About Section */
+.about-section {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.about-section img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 4px solid #0071e3;
+}
+
+/* Services Section */
+.services-section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 80%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 2px solid #0071e3;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-section button {
+    padding: 0.75rem 2rem;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1rem;
+}
