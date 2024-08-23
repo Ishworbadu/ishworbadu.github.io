@@ -8,11 +8,12 @@ body, h1, h2, h3, p {
 }
 
 body {
-  background-image: url('https://github.com/Ishworbadu/ishworbadu.github.io/blob/main/%E2%80%94Pngtree%E2%80%94futuristic%20shape%20abstract%20background%20chemistry_1250295.jpg');
+  background-image: url('https://ishworbadu.github.io/https://github.com/Ishworbadu/ishworbadu.github.io/blob/main/%E2%80%94Pngtree%E2%80%94futuristic%20shape%20abstract%20background%20chemistry_1250295.jpg');
   background-size: cover; /* Adjusts the image to cover the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-attachment: fixed; /* Keeps the background fixed during scrolling */
 }
+
 
 
 
