@@ -6,10 +6,11 @@ function loadNotes() {
     notesList.innerHTML = '';
     notes.forEach(noteData => {
         const li = document.createElement("li");
+
         const dateDiv = document.createElement("div");
         dateDiv.className = "note-date";
-        dateDiv.textContent = noteData.date;
-        
+        dateDiv.textContent = noteData.timestamp;  // Display the timestamp with date and time
+
         const noteDiv = document.createElement("div");
         noteDiv.className = "note-text";
         noteDiv.textContent = noteData.text;
@@ -20,15 +21,17 @@ function loadNotes() {
     });
 }
 
-// Function to add a new note
+// Function to add a new note with the current date and time
 function addNote() {
     const noteText = document.getElementById("newNote").value.trim();
     if (noteText) {
         const notes = JSON.parse(localStorage.getItem("notes")) || [];
-        const currentDate = new Date().toLocaleDateString(); // Get the current date
-        notes.push({ text: noteText, date: currentDate });
+        
+        const currentDateTime = new Date().toLocaleString(); // Get current date and time with seconds
+        notes.push({ text: noteText, timestamp: currentDateTime });  // Store timestamp
+
         localStorage.setItem("notes", JSON.stringify(notes));
-        document.getElementById("newNote").value = '';
+        document.getElementById("newNote").value = '';  // Clear text area
         loadNotes();
     }
 }
